@@ -18,7 +18,7 @@ import useGif from '../Hook/useGif';
         {
           loading ? (<Spinner/>):
           (<div className='w-[400px] h-[320px]'>
-            <img src={gif}  className="max-w-full max-h-full"/>
+            <img src={gif} alt='random gif' className="max-w-full max-h-full"/>
           </div>)
         }
 

@@ -3,7 +3,6 @@ import axios from 'axios'
 import Spinner from './Spinner';
 import useGif from '../Hook/useGif';
 
-// const API_KEY = '6jt3zV86EdSqemlhlj1bwLniycw3dU0b';
   const Tag = () => {
     
     // const [gif, setGif] = useState("");
